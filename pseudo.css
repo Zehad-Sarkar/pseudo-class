@@ -1,0 +1,55 @@
+.head{
+    font-size: 24px;
+    background-color: red;
+    color: green;
+
+}
+.head:hover{
+    font-size: 42px;
+    background-color: rgb(12, 40, 133);
+    color: rgb(198, 218, 198);
+
+}
+.u-list{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.list{
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    background-color: steelblue;
+
+}
+.list:hover{
+    width: 90px;
+    height: 110px;
+    background-color: blue;
+    font-size: 40px;
+    
+    
+
+}
+a{
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    margin: 10px 20px;
+}
+a:visited{
+    color: rgb(212, 201, 181);
+}
+.inp:hover{
+
+    margin: 10px 20px;
+    padding: 5px 20px;
+}
+.inp:focus{
+    background-color: green;
+    color: white;
+}
