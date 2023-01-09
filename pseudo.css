@@ -53,3 +53,34 @@ a:visited{
     background-color: green;
     color: white;
 }
+.ul li{
+    font-size: 18px;
+    background-color: gray;
+}
+.ul li:hover::before{
+    content: '1-10';
+    color: red;
+    background-color: yellow;
+}
+    
+.ul li:hover::after{
+    content: 'Zehad sarkar';
+    color: orange;
+    background-color: slateblue;
+    
+}
+.ul li:hover:first-child{
+    color: aliceblue;
+}
+.ul li:nth-child(2n+1){
+    content: '1-10';
+    color: rgb(180, 162, 162);
+    background-color: yellow;
+}
+    
+.ul li:last-child{
+    content: 'Zehad sarkar';
+    color: rgb(229, 222, 207);
+    background-color: slateblue;
+    
+}

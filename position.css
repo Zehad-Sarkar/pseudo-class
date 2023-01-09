@@ -1,0 +1,21 @@
+.con {
+    width: 200px;
+    height: 210px;
+    border: 2px solid blue;
+    margin-left: 40px;
+}
+.shap{
+    position: relative;
+    top: 60px;
+    
+}
+.redd{
+    position: relative;
+    top: -60px;
+    z-index: 2;
+}
+.images{
+    position: relative;
+    top: -130px;
+    z-index: 3;
+}
